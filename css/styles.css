@@ -37,7 +37,7 @@ li a {
   background-color: #95B46A;
   color: #F4F0BB;
   text-align: center;
-  font-family: monospace;
+
 }
 
 h1, .panel-heading {
@@ -50,13 +50,11 @@ li a:hover {
   color: #F4F0BB;
 }
 
-ul.col-md-3 {
+ul {
   list-style: none;
-  font-family: monospace;
 }
 
 .horiz-navbar  {
-  list-style: none;
   padding: 0;
   margin: 0;
   font-size: 16px;
@@ -122,4 +120,12 @@ div#about-me {
   position: relative;
   left: 50%;
   right: 50%;
+}
+
+.fixed-container {
+    background-color: #226F54;
+    position: fixed;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
 }
