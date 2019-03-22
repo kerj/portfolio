@@ -3,16 +3,29 @@ body  {
 
 }
 
-.horiz-navbar  {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  font-size: 16px;
-  float:right;
+h1, p {
+  font-family: monospace;
 }
 
-li a:hover {
-  background-color: #43291F;
+h2, h3, h4 {
+  color: #43291F;
+}
+
+em {
+  color: #F4F0BB;
+}
+
+span {
+  color: #DA2C38;
+}
+
+span:hover {
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+li  {
+  font-family: monospace;
 }
 
 li a {
@@ -24,9 +37,31 @@ li a {
   background-color: #95B46A;
   color: #F4F0BB;
   text-align: center;
+  font-family: monospace;
 }
+
+h1, .panel-heading {
+  text-align: center;
+  color: #43291F;
+}
+
+li a:hover {
+  background-color: #43291F;
+  color: #F4F0BB;
+}
+
 ul.col-md-3 {
   list-style: none;
+  font-family: monospace;
+}
+
+.horiz-navbar  {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  float:right;
+  font-family: monospace;
 }
 
 .gallery-small  {
@@ -55,8 +90,27 @@ ul.col-md-3 {
   text-align: left;
 }
 
-em {
-  color: #F4F0BB;
+.panel {
+  background-color: #95B46A;
+  padding: 3px;
+  font-family: monospace;
+}
+
+.well {
+  background-color: inherit;
+  border-style: groove;
+  border-radius: 20px;
+  border-color: #F4F0BB;
+  border-width: medium;
+  font-family: monospace;
+}
+
+.grow  {
+  transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.5);
 }
 
 div#about-me {
@@ -68,23 +122,4 @@ div#about-me {
   position: relative;
   left: 50%;
   right: 50%;
-
-}
-
-h1, .panel-heading {
-  text-align: center;
-  color: #43291F;
-}
-
-.panel {
-  background-color: #95B46A;
-  padding: 3px;
-}
-
-.well {
-  background-color: inherit;
-  border-style: dotted;
-  border-radius: 20px;
-  border-color: #F4F0BB;
-  border-width: medium;
 }
