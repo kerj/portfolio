@@ -144,3 +144,7 @@ div#about-me {
 .photo div:first-child:not(.gallery-small) {
   margin-top: 20vw;
 }
+
+.panel-body {
+  color: #F4F0BB;
+}
