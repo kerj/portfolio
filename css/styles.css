@@ -1,3 +1,8 @@
+body  {
+  background-color: slategray;
+
+}
+
 .horiz-navbar  {
   list-style: none;
   padding: 0;
@@ -5,6 +10,11 @@
   font-size: 16px;
   overflow: hidden;
 }
+
+li a:hover {
+  background-color: white;
+}
+
 li {
   float: right;
 }
@@ -18,6 +28,7 @@ li a {
   text-decoration: none;
   background-color: slategray;
   color: lightgreen;
+  opacity: .8;
 }
 
 .gallery-small  {
@@ -35,4 +46,16 @@ li a {
 
 .gallery-small:hover .gallery-hover {
   display: block;
+}
+.jumbotron {
+  background-image: url(../img/amCharts.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: white;
+  background-color: #545363;
+}
+
+em {
+  color: white;
+
 }
