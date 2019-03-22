@@ -51,8 +51,30 @@ li a {
   background-repeat: no-repeat;
   color: white;
   background-color: #545363;
+  text-align: left;
 }
 
 em {
   color: white;
+}
+
+div#about-me {
+  background-color: #545363;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  width: 100vw;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  height: 88vw;
+}
+
+h1, .panel-heading {
+  text-align: center;
+  color: white;
+}
+
+.panel {
+  background-color: slategray;
 }
