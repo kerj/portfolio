@@ -50,8 +50,12 @@ li a:hover {
   color: #F4F0BB;
 }
 
-ul {
+ul:not(.my-background) {
   list-style: none;
+}
+
+.my-background {
+  color: #F4F0BB;
 }
 
 .horiz-navbar  {
@@ -103,7 +107,7 @@ ul {
 }
 
 .well {
-  background-color: inherit;
+  background-color: #95B46A;
   border-style: groove;
   border-radius: 20px;
   border-color: #F4F0BB;
