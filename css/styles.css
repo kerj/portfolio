@@ -16,7 +16,8 @@ li a:hover {
 }
 
 li a {
-  border-style: dotted;
+  list-style: none;
+  border-style: groove;
   border-radius: 20px;
   margin: 2px;
   padding: 5px;
@@ -67,7 +68,7 @@ div#about-me {
   position: relative;
   left: 50%;
   right: 50%;
-  height: 88vw;
+
 }
 
 h1, .panel-heading {
@@ -77,4 +78,15 @@ h1, .panel-heading {
 
 .panel {
   background-color: slategray;
+  padding: 3px;
+}
+
+.well {
+  background-color: inherit;
+  border-style: dotted;
+  border-radius: 20px;
+  border-color: lightgreen;
+  border-width: medium;
+
+
 }
