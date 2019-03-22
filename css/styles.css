@@ -1,5 +1,5 @@
 body  {
-  background-color: slategray;
+  background-color: #226F54;
 
 }
 
@@ -12,21 +12,21 @@ body  {
 }
 
 li a:hover {
-  background-color: white;
+  background-color: #43291F;
 }
 
 li a {
-  list-style: none;
-  border-style: groove;
+  display: block;
+  border-style: ridge;
   border-radius: 20px;
   margin: 2px;
   padding: 5px;
-  display: block;
-  text-decoration: none;
-  background-color: slategray;
-  color: lightgreen;
-  opacity: .8;
+  background-color: #95B46A;
+  color: #F4F0BB;
   text-align: center;
+}
+ul.col-md-3 {
+  list-style: none;
 }
 
 .gallery-small  {
@@ -50,17 +50,17 @@ li a {
   background-image: url(../img/amCharts.png);
   background-size: contain;
   background-repeat: no-repeat;
-  color: white;
+  color: #F4F0BB;
   background-color: #545363;
   text-align: left;
 }
 
 em {
-  color: white;
+  color: #F4F0BB;
 }
 
 div#about-me {
-  background-color: #545363;
+  background-color: #F4F0BB;
   margin-left: -50vw;
   margin-right: -50vw;
   width: 100vw;
@@ -73,11 +73,11 @@ div#about-me {
 
 h1, .panel-heading {
   text-align: center;
-  color: white;
+  color: #43291F;
 }
 
 .panel {
-  background-color: slategray;
+  background-color: #95B46A;
   padding: 3px;
 }
 
@@ -85,8 +85,6 @@ h1, .panel-heading {
   background-color: inherit;
   border-style: dotted;
   border-radius: 20px;
-  border-color: lightgreen;
+  border-color: #F4F0BB;
   border-width: medium;
-
-
 }
