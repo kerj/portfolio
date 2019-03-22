@@ -9,15 +9,14 @@ body  {
   margin: 0;
   font-size: 16px;
   overflow: hidden;
+  float:right;
 }
 
 li a:hover {
   background-color: white;
 }
 
-li {
-  float: right;
-}
+
 
 li a {
   border-style: dotted;
