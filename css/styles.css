@@ -86,6 +86,14 @@ ul {
   color: #F4F0BB;
   background-color: #545363;
   text-align: left;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  position: fixed;
+  z-index: 1;
+
 }
 
 .panel {
@@ -126,6 +134,9 @@ div#about-me {
     background-color: #226F54;
     position: fixed;
     left: 50%;
-    top: 40%;
+    top: 53%;
     transform: translate(-50%, -50%);
+}
+.photo div:first-child:not(.gallery-small) {
+  margin-top: 20vw;
 }
