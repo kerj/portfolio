@@ -11,7 +11,7 @@ _From scratch, a webpage that will act as a landing page for my Programming Port
 ## Setup/Installation Requirements
 
 * _You can Clone this repo from [Click here](https://github.com/kerj/portfolio.git)_
-* _You may also view it from the gh page link [Click here](#)_
+* _You may also view it from the gh page link [Click here](https://kerj.github.io/portfolio/)_
 
 _This is a page that will open in most browsers as it uses just HTML and CSS_
 
@@ -21,7 +21,7 @@ _None to date_
 
 ## Support and contact details
 
-_Feel free to contact me via Github [Click here](https://kerj.github.io/portfolio/) or Linkedin [Click here](https://www.linkedin.com/in/kerntzj)_
+_Feel free to contact me via Github [Click here](https://github.com/kerj) or Linkedin [Click here](https://www.linkedin.com/in/kerntzj)_
 
 ## Technologies Used
 
