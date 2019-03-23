@@ -21,7 +21,7 @@ _None to date_
 
 ## Support and contact details
 
-_Feel free to contact me via Github [Click here](https://github.com/kerj) or Linkedin [Click here](https://www.linkedin.com/in/kerntzj)_
+_Feel free to contact me via Github [Click here](https://kerj.github.io/portfolio/) or Linkedin [Click here](https://www.linkedin.com/in/kerntzj)_
 
 ## Technologies Used
 
